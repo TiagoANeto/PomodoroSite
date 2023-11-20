@@ -6,12 +6,38 @@
 
 section{
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;  
     background-color: rgb(147, 199, 245);
 }
 
+.menu{
+    display: inline-flex;
+    width: 100%;
+}
+
+.logo-menu{
+    width: 50%;
+    margin-top: 1%;
+    margin-left: 38%;
+}
+
+.menuItens{
+    width: 100%;
+    text-align: center;
+    margin-right: 28%;
+}
+
+.menuItens span{
+    display: inline-block;
+    flex-direction: row;
+    text-decoration: none;
+    margin-top: 5%;
+    margin-right: 2%;    
+}
+
 .container{
-    margin: 20% auto;
+    margin: 15% auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,18 +48,18 @@ section{
     margin: 25% auto;
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: row;
-    font-size: 40px;
+    font-size: 90px;
 }
 
 .circle{
-    margin: 35% auto;
+    margin: 2% auto;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
     border-radius: 50%;
+    border-style: groove;
     border-color: black;
-    background-color: blueviolet;
+    background-color: rgb(94, 180, 255);
 }
