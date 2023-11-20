@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    background-color: rgb(147, 199, 245);
+}
+
+.container{
+    margin: 20% auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.time{
+    margin: 25% auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 40px;
+}
+
+.circle{
+    margin: 35% auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    border-radius: 50%;
+    border-color: black;
+    background-color: blueviolet;
+}
