@@ -4,33 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/dist/boxicons.js' rel='stylesheet'>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>PomodoroPage</title>
 </head>
 <body>
     <section>
         <div class="menu">
-
+            <div class="mid"></div>
             <div class="logo-menu">
-                <h1>Pomodoro</h1>
+                <h1><i class='bx bxs-timer'></i>Pomodoro</h1>
             </div>
             <div class="menuItens">
-               <span>Settings</span>
-               <span>Login</span>
-               <span>About Me</span>
+               <span><i class='bx bxs-cog'></i>Settings</span>
+               <span><i class='bx bxs-user-circle'></i>Login</span>
+               <span><i class='bx bxs-cool'></i>About Me</span>
             </div>
         </div> <!--MenuBar-->
-
+        
         <div class="container">
-        <div class="cronometro">
-            <div class="circle">
-                <div class="time">
-                    <p>25</p>
-                    <p>:</p>
-                    <p>00</p>
-                </div>
+            
+            <div class="cronometro">
+                <div class="circle">
+                    <div class="time">
+                        <p>25</p>
+                        <p>:</p>
+                        <p>00</p>
+                    </div>
+                </div> 
             </div> 
-        </div> 
+
+            <div class="painel">
+                <button>Start</button>
+                <button>Break</button>
+            </div>
         </div> <!--Timer-->
 
     </section>

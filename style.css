@@ -7,8 +7,10 @@
 section{
     display: flex;
     flex-wrap: wrap;
-    height: 100%;  
+    min-height: 700px;
+    padding: 20px 0 80px 0;
     background-color: rgb(147, 199, 245);
+    border: 2px solid aqua;
 }
 
 .menu{
@@ -19,28 +21,51 @@ section{
 .logo-menu{
     width: 50%;
     margin-top: 1%;
-    margin-left: 38%;
+    margin-left: 2%;
+    text-decoration: none;
+    font-size: 20px;
+    color: #FFFFFF;
 }
-
 .menuItens{
     width: 100%;
-    text-align: center;
-    margin-right: 28%;
+    text-align: right;
+    margin-right: 6%;
+    margin-top: 5mm;
+    text-decoration: none;
 }
 
 .menuItens span{
     display: inline-block;
     flex-direction: row;
     text-decoration: none;
-    margin-top: 5%;
-    margin-right: 2%;    
+    margin-right: 2%;
+    font-size: 17px;
+    color: #FFFFFF;
+}
+
+.menuItens span:hover{
+    border-bottom:2px solid #FFFFFF;
+}
+
+.painel{
+    display: inline-block;
+    margin-top: 10%;
+    align-items: center;
+}
+
+.painel button{
+    padding: 5px 8px 5px 8px;
+    margin: 5px;
+    text-decoration: none;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 30%;
 }
 
 .container{
-    margin: 15% auto;
+    margin: 12% auto;
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
 }
 
@@ -50,16 +75,17 @@ section{
     align-items: center;
     flex-direction: row;
     font-size: 90px;
+    color: aliceblue;
 }
 
 .circle{
-    margin: 2% auto;
     display: flex;
+    margin: 2% auto;
+    padding: 20px;
     align-items: center;
-    justify-content: center;
     flex-direction: row;
     border-radius: 50%;
-    border-style: groove;
-    border-color: black;
-    background-color: rgb(94, 180, 255);
+    border-style: double;
+    border-color: white;
+    background-color: #AFDEFA;
 }
