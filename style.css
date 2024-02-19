@@ -1,16 +1,23 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Poppins:wght@200&family=Roboto:wght@300&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
-section{
+/* Section principal do  site (Timer principal, main do site) */
+
+.main{
     display: flex;
     flex-wrap: wrap;
-    min-height: 700px;
+    min-height: 970px;
     padding: 20px 0 80px 0;
     background-color: rgb(147, 199, 245);
-    border: 2px solid aqua;
+    border: 2px solid rgb(83, 135, 248);
+    border-radius: 8px;
 }
 
 .menu{
@@ -59,33 +66,39 @@ section{
     text-decoration: none;
     background-color: aliceblue;
     border: none;
-    border-radius: 30%;
+    border-radius: 40%;
 }
 
 .container{
-    margin: 12% auto;
     display: flex;
-    align-items: center;
     flex-direction: column;
-}
-
-.time{
-    margin: 25% auto;
-    display: flex;
     align-items: center;
-    flex-direction: row;
-    font-size: 90px;
-    color: aliceblue;
+    margin: 12% auto;
 }
 
 .circle{
     display: flex;
-    margin: 2% auto;
-    padding: 20px;
     align-items: center;
-    flex-direction: row;
+    width: 280px; 
+    height: 280px; 
     border-radius: 50%;
-    border-style: double;
-    border-color: white;
+    border: 2px solid white;
     background-color: #AFDEFA;
+}
+
+.time{
+    display: flex;
+    font-size: 90px;
+    margin: 25% auto;
+    color: aliceblue;
+}
+
+/* Section dois do site (informações do uso do pomodoro) */
+
+.infoPomodoro{
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 970px;
+    padding: 20px 0 80px 0;
+    border-radius: 8px;
 }

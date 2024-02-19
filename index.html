@@ -8,7 +8,7 @@
     <title>PomodoroPage</title>
 </head>
 <body>
-    <section>
+    <section class="main">
         <div class="menu">
             <div class="mid"></div>
             <div class="logo-menu">
@@ -21,24 +21,25 @@
             </div>
         </div> <!--MenuBar-->
         
-        <div class="container">
-            
-            <div class="cronometro">
+        <div class="container">       
                 <div class="circle">
                     <div class="time">
-                        <p>25</p>
+                        <p id="minutes"></p>
                         <p>:</p>
-                        <p>00</p>
+                        <p id="seconds"></p>
                     </div>
                 </div> 
-            </div> 
-
             <div class="painel">
-                <button>Start</button>
+                <button id="start" onclick="start()">Start</button>
                 <button>Break</button>
+                <button>Add 5+</button>
             </div>
         </div> <!--Timer-->
 
     </section>
+    <section class="infoPomodoro">
+        
+    </section>
+    <script src="script.js"></script>
 </body>
 </html>
