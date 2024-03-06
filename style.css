@@ -10,12 +10,15 @@
 
 /* Section principal do  site (Timer principal, main do site) */
 
+#body{
+    background-color: rgb(147, 199, 245);
+}
+
 .main{
     display: flex;
     flex-wrap: wrap;
     min-height: 970px;
     padding: 20px 0 80px 0;
-    background-color: rgb(147, 199, 245);
     border: 2px solid rgb(83, 135, 248);
     border-radius: 8px;
 }
@@ -101,4 +104,5 @@
     min-height: 970px;
     padding: 20px 0 80px 0;
     border-radius: 8px;
+    background-color: #FFFFFF;
 }

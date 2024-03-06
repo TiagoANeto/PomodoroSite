@@ -8,7 +8,7 @@
     <audio src="AlarmSound.mp3"></audio>
     <title>PomodoroPage</title>
 </head>
-<body>
+<body id="body">
     <section class="main">
         <div class="menu">
             <div class="mid"></div>
@@ -32,8 +32,9 @@
                 </div> 
             <div class="painel">
                 <button id="start" onclick="start()">Start</button>
-                <button>Break</button>
-                <button>Add 5+</button>
+                <button id="pause" onclick="Pause()">Break</button>
+                <button id="addTime" onclick="AddTime()">5+</button>
+                <button id="subtractTime" onclick="SubtractTime()">5-</button>
             </div>
         </div> <!--Timer-->
 
